@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DlibDotNet" Version="19.21.0.20220724" />
+    <PackageReference Include="Emgu.CV" Version="4.9.0.5494" />
+    <PackageReference Include="Emgu.CV.Bitmap" Version="4.9.0.5494" />
+    <PackageReference Include="Emgu.CV.runtime.windows" Version="4.9.0.5494" />
+    <PackageReference Include="Emgu.CV.UI" Version="4.9.0.5494" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="FFmpeg.AutoGen.Abstractions">
+      <HintPath>..\..\KZ_Human_Detection_Demo\KZ_Human_Detection_Demo\Required Files\FFmpeg.AutoGen.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="FFmpeg.AutoGen.Bindings.DynamicallyLoaded">
+      <HintPath>..\..\KZ_Human_Detection_Demo\KZ_Human_Detection_Demo\Required Files\FFmpeg.AutoGen.Bindings.DynamicallyLoaded.dll</HintPath>
+    </Reference>
+    <Reference Include="FFmpeg.AutoGen.Example">
+      <HintPath>..\..\KZ_Human_Detection_Demo\KZ_Human_Detection_Demo\Required Files\FFmpeg.AutoGen.Example.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
